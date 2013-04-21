@@ -164,6 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/xiaomi/aries/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/xiaomi/aries/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
+    vendor/xiaomi/aries/proprietary/lib/libsensor_test.so:system/lib/libsensor_test.so \
     vendor/xiaomi/aries/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/xiaomi/aries/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/xiaomi/aries/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so
