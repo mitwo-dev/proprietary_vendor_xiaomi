@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/aries/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/aries/proprietary/bin/ramdump:system/bin/ramdump \
-    vendor/xiaomi/aries/proprietary/bin/rild:system/bin/rild \
     vendor/xiaomi/aries/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/aries/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/aries/proprietary/bin/thermald:system/bin/thermald \
@@ -161,7 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/xiaomi/aries/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/xiaomi/aries/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/xiaomi/aries/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/xiaomi/aries/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/xiaomi/aries/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/xiaomi/aries/proprietary/lib/libsensor_test.so:system/lib/libsensor_test.so \
