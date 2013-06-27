@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/bin/efsks:system/bin/efsks \
     vendor/xiaomi/aries/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/aries/proprietary/bin/ks:system/bin/ks \
-    vendor/xiaomi/aries/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/aries/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/aries/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/aries/proprietary/bin/qcks:system/bin/qcks \
@@ -38,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/bin/thermald:system/bin/thermald \
     vendor/xiaomi/aries/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/xiaomi/aries/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/xiaomi/aries/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/xiaomi/aries/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
@@ -50,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/xiaomi/aries/proprietary/lib/hw/power.aries.so:system/lib/hw/power.aries.so \
     vendor/xiaomi/aries/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
-    vendor/xiaomi/aries/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/xiaomi/aries/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/xiaomi/aries/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/xiaomi/aries/proprietary/lib/libAKM.so:system/lib/libAKM.so \
@@ -58,54 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/xiaomi/aries/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/xiaomi/aries/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_mt9e013_video_hfr.so:system/lib/libchromatix_mt9e013_video_hfr.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov5647_video_hfr.so:system/lib/libchromatix_ov5647_video_hfr.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_zsl.so:system/lib/libchromatix_imx175_zsl.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx135_preview.so:system/lib/libchromatix_imx135_preview.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov8825_default_video.so:system/lib/libchromatix_ov8825_default_video.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2720_zsl.so:system/lib/libchromatix_ov2720_zsl.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov9726_preview.so:system/lib/libchromatix_ov9726_preview.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3h7_default_video.so:system/lib/libchromatix_s5k3h7_default_video.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_mt9e013_preview.so:system/lib/libchromatix_mt9e013_preview.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov8825_preview.so:system/lib/libchromatix_ov8825_preview.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov5647_preview.so:system/lib/libchromatix_ov5647_preview.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3h7_hfr_120fps.so:system/lib/libchromatix_s5k3h7_hfr_120fps.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3h7_hfr_60fps.so:system/lib/libchromatix_s5k3h7_hfr_60fps.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3h7_hfr_90fps.so:system/lib/libchromatix_s5k3h7_hfr_90fps.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2722_default_video.so:system/lib/libchromatix_ov2722_default_video.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_hfr_120fps.so:system/lib/libchromatix_imx175_hfr_120fps.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3h7_zsl.so:system/lib/libchromatix_s5k3h7_zsl.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_hfr_60fps.so:system/lib/libchromatix_imx175_hfr_60fps.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_mt9e013_default_video.so:system/lib/libchromatix_mt9e013_default_video.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2722_preview.so:system/lib/libchromatix_ov2722_preview.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov9726_default_video.so:system/lib/libchromatix_ov9726_default_video.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_hfr_90fps.so:system/lib/libchromatix_imx175_hfr_90fps.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2720_hfr.so:system/lib/libchromatix_ov2720_hfr.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx135_zsl.so:system/lib/libchromatix_imx135_zsl.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_default_video.so:system/lib/libchromatix_imx175_default_video.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2722_zsl.so:system/lib/libchromatix_ov2722_zsl.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3h7_preview.so:system/lib/libchromatix_s5k3h7_preview.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx135_default_video.so:system/lib/libchromatix_imx135_default_video.so \
-    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_preview.so:system/lib/libchromatix_imx175_preview.so \
     vendor/xiaomi/aries/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/xiaomi/aries/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/xiaomi/aries/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
@@ -118,31 +67,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/xiaomi/aries/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/xiaomi/aries/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/xiaomi/aries/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/xiaomi/aries/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/xiaomi/aries/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/xiaomi/aries/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
-    vendor/xiaomi/aries/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/xiaomi/aries/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/xiaomi/aries/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/xiaomi/aries/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/xiaomi/aries/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/xiaomi/aries/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/xiaomi/aries/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/xiaomi/aries/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/xiaomi/aries/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/xiaomi/aries/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/xiaomi/aries/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
@@ -167,3 +98,92 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/xiaomi/aries/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/xiaomi/aries/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so
+
+
+# camera
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/aries/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/xiaomi/aries/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+    vendor/xiaomi/aries/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/xiaomi/aries/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+    vendor/xiaomi/aries/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+    vendor/xiaomi/aries/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+    vendor/xiaomi/aries/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/xiaomi/aries/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+    vendor/xiaomi/aries/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/xiaomi/aries/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/xiaomi/aries/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/xiaomi/aries/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    vendor/xiaomi/aries/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/xiaomi/aries/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
+    vendor/xiaomi/aries/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/xiaomi/aries/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    vendor/xiaomi/aries/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so
+
+# Back Cam
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_zsl.so:system/lib/libchromatix_imx175_zsl.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_hfr_120fps.so:system/lib/libchromatix_imx175_hfr_120fps.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_hfr_60fps.so:system/lib/libchromatix_imx175_hfr_60fps.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_hfr_90fps.so:system/lib/libchromatix_imx175_hfr_90fps.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_default_video.so:system/lib/libchromatix_imx175_default_video.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_preview.so:system/lib/libchromatix_imx175_preview.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3h7_preview.so:system/lib/libchromatix_s5k3h7_preview.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3h7_default_video.so:system/lib/libchromatix_s5k3h7_default_video.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3h7_hfr_120fps.so:system/lib/libchromatix_s5k3h7_hfr_120fps.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3h7_hfr_60fps.so:system/lib/libchromatix_s5k3h7_hfr_60fps.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3h7_hfr_90fps.so:system/lib/libchromatix_s5k3h7_hfr_90fps.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3h7_zsl.so:system/lib/libchromatix_s5k3h7_zsl.so \
+
+# Front Cam
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2722_zsl.so:system/lib/libchromatix_ov2722_zsl.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2722_default_video.so:system/lib/libchromatix_ov2722_default_video.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2722_preview.so:system/lib/libchromatix_ov2722_preview.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2720_hfr.so:system/lib/libchromatix_ov2720_hfr.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2720_zsl.so:system/lib/libchromatix_ov2720_zsl.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
+    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
+
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_mt9e013_video_hfr.so:system/lib/libchromatix_mt9e013_video_hfr.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_mt9e013_preview.so:system/lib/libchromatix_mt9e013_preview.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_mt9e013_default_video.so:system/lib/libchromatix_mt9e013_default_video.so \
+
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
+
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov5647_video_hfr.so:system/lib/libchromatix_ov5647_video_hfr.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov5647_preview.so:system/lib/libchromatix_ov5647_preview.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
+
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
+
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov8825_default_video.so:system/lib/libchromatix_ov8825_default_video.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov8825_preview.so:system/lib/libchromatix_ov8825_preview.so \
+
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
+
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov9726_preview.so:system/lib/libchromatix_ov9726_preview.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov9726_default_video.so:system/lib/libchromatix_ov9726_default_video.so \
+
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
+
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx135_default_video.so:system/lib/libchromatix_imx135_default_video.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx135_hfr_60fps.so:system/lib/libchromatix_imx135_hfr_60fps.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx135_hfr_90fps.so:system/lib/libchromatix_imx135_hfr_90fps.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx135_preview.so:system/lib/libchromatix_imx135_preview.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx135_video_hdr.so:system/lib/libchromatix_imx135_video_hdr.so \
+#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx135_zsl.so:system/lib/libchromatix_imx135_zsl.so
+
+

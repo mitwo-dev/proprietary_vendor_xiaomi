@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/qcom-common/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/xiaomi/qcom-common/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/xiaomi/qcom-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/xiaomi/qcom-common/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/xiaomi/qcom-common/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/xiaomi/qcom-common/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/xiaomi/qcom-common/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
