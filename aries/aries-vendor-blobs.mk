@@ -170,8 +170,3 @@ PRODUCT_COPY_FILES += \
 #    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov9726_preview.so:system/lib/libchromatix_ov9726_preview.so \
 #    vendor/xiaomi/aries/proprietary/lib/libchromatix_ov9726_default_video.so:system/lib/libchromatix_ov9726_default_video.so \
 
-#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
-#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
-#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
-#    vendor/xiaomi/aries/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
-
