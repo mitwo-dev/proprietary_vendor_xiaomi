@@ -89,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/xiaomi/aries/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/xiaomi/aries/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
+    vendor/xiaomi/aries/proprietary/lib/libqminvapi.so:obj/lib/libqminvapi.so \
     vendor/xiaomi/aries/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/xiaomi/aries/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/xiaomi/aries/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
