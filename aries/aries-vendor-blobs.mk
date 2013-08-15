@@ -118,7 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/xiaomi/aries/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/xiaomi/aries/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/xiaomi/aries/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so
+    vendor/xiaomi/aries/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so
 
 # Back Cam
 PRODUCT_COPY_FILES += \
