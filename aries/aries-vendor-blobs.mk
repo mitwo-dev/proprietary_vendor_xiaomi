@@ -97,7 +97,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libsensor_test.so:system/lib/libsensor_test.so \
     vendor/xiaomi/aries/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/xiaomi/aries/proprietary/lib/libxml.so:system/lib/libxml.so \
-    vendor/xiaomi/aries/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so
+    vendor/xiaomi/aries/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
+    vendor/xiaomi/aries/proprietary/lib/libgeofence.so:system/lib/libgeofence.so
 
 
 # camera
