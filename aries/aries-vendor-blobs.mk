@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/bin/thermald:system/bin/thermald \
     vendor/xiaomi/aries/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/xiaomi/aries/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+    vendor/xiaomi/aries/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/aries/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
