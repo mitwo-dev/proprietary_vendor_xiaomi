@@ -129,7 +129,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/xiaomi/taurus/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/xiaomi/taurus/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-    vendor/xiaomi/taurus/proprietary/lib/hw/power.taurus.so:system/lib/hw/power.taurus.so
+    vendor/xiaomi/taurus/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+    vendor/xiaomi/taurus/proprietary/lib/hw/power.taurus.so:system/lib/hw/power.taurus.so \
+    vendor/xiaomi/taurus/proprietary/lib/libgeofence.so:system/lib/libgeofence.so
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/lib/libchromatix_s5k3h7a_default_video.so:system/lib/libchromatix_s5k3h7a_default_video.so \
