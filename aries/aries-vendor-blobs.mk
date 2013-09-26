@@ -38,6 +38,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/xiaomi/aries/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/xiaomi/aries/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/xiaomi/aries/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/xiaomi/aries/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/aries/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
