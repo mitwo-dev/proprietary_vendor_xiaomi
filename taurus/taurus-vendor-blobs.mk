@@ -38,6 +38,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/xiaomi/taurus/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/xiaomi/taurus/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+    vendor/xiaomi/taurus/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/xiaomi/taurus/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/taurus/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/xiaomi/taurus/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/xiaomi/taurus/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
