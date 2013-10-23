@@ -102,7 +102,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/xiaomi/aries/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
     vendor/xiaomi/aries/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
-    vendor/xiaomi/aries/proprietary/lib/libulp2.so:system/lib/libulp2.so
+    vendor/xiaomi/aries/proprietary/lib/libulp2.so:system/lib/libulp2.so \
+    vendor/xiaomi/aries/proprietary/lib/soundfx/libdseffect.so:system/lib/soundfx/libdseffect.so \
+    vendor/xiaomi/aries/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so
 
 
 # camera

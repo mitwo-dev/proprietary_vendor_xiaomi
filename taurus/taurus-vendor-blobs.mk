@@ -134,7 +134,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/xiaomi/taurus/proprietary/lib/hw/power.taurus.so:system/lib/hw/power.taurus.so \
     vendor/xiaomi/taurus/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
-    vendor/xiaomi/taurus/proprietary/lib/libulp2.so:system/lib/libulp2.so
+    vendor/xiaomi/taurus/proprietary/lib/libulp2.so:system/lib/libulp2.so \
+    vendor/xiaomi/taurus/proprietary/lib/soundfx/libdseffect.so:system/lib/soundfx/libdseffect.so \
+    vendor/xiaomi/taurus/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/lib/libchromatix_s5k3h7a_default_video.so:system/lib/libchromatix_s5k3h7a_default_video.so \
