@@ -41,13 +41,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/xiaomi/aries/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/aries/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
+    vendor/xiaomi/aries/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    vendor/xiaomi/aries/proprietary/bin/nl_listener:system/bin/nl_listener
+
+PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
-    vendor/xiaomi/aries/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/xiaomi/aries/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw
+
+PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/xiaomi/aries/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/xiaomi/aries/proprietary/lib/hw/power.msm8960.so:system/lib/hw/power.msm8960.so \
