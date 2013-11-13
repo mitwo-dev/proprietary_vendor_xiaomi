@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/aries/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/xiaomi/aries/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/xiaomi/aries/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
     vendor/xiaomi/aries/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/xiaomi/aries/proprietary/bin/nl_listener:system/bin/nl_listener
 
@@ -51,7 +50,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
-    vendor/xiaomi/aries/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw
+    vendor/xiaomi/aries/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/xiaomi/aries/proprietary/etc/Diag.cfg:system/etc/Diag.cfg
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
@@ -110,7 +110,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/xiaomi/aries/proprietary/lib/libulp2.so:system/lib/libulp2.so \
     vendor/xiaomi/aries/proprietary/lib/soundfx/libdseffect.so:system/lib/soundfx/libdseffect.so \
-    vendor/xiaomi/aries/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so
+    vendor/xiaomi/aries/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so \
+    vendor/xiaomi/aries/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/xiaomi/aries/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
 
 
 # camera

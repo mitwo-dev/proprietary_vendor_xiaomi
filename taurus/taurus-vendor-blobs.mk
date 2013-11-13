@@ -39,7 +39,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/xiaomi/taurus/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/xiaomi/taurus/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/xiaomi/taurus/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/xiaomi/taurus/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
+
+PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/xiaomi/taurus/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/xiaomi/taurus/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
@@ -47,7 +49,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/xiaomi/taurus/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/xiaomi/taurus/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/xiaomi/taurus/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
+    vendor/xiaomi/taurus/proprietary/etc/Diag.cfg:system/etc/Diag.cfg
+
+PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/xiaomi/taurus/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/xiaomi/taurus/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
@@ -136,7 +140,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/xiaomi/taurus/proprietary/lib/libulp2.so:system/lib/libulp2.so \
     vendor/xiaomi/taurus/proprietary/lib/soundfx/libdseffect.so:system/lib/soundfx/libdseffect.so \
-    vendor/xiaomi/taurus/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so
+    vendor/xiaomi/taurus/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so \
+    vendor/xiaomi/taurus/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/xiaomi/taurus/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/lib/libchromatix_s5k3h7a_default_video.so:system/lib/libchromatix_s5k3h7a_default_video.so \
