@@ -143,7 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/lib/hw/power.taurus.so:system/lib/hw/power.taurus.so \
     vendor/xiaomi/taurus/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/xiaomi/taurus/proprietary/lib/libulp2.so:system/lib/libulp2.so \
-    vendor/xiaomi/taurus/proprietary/lib/soundfx/libdseffect.so:system/lib/soundfx/libdseffect.so \
     vendor/xiaomi/taurus/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so \
     vendor/xiaomi/taurus/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/xiaomi/taurus/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
