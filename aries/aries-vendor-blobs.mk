@@ -112,7 +112,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/soundfx/libdseffect.so:system/lib/soundfx/libdseffect.so \
     vendor/xiaomi/aries/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so \
     vendor/xiaomi/aries/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
-    vendor/xiaomi/aries/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
+    vendor/xiaomi/aries/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/xiaomi/aries/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+    vendor/xiaomi/aries/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/xiaomi/aries/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so
 
 
 # camera

@@ -145,7 +145,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/lib/libulp2.so:system/lib/libulp2.so \
     vendor/xiaomi/taurus/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so \
     vendor/xiaomi/taurus/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
-    vendor/xiaomi/taurus/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
+    vendor/xiaomi/taurus/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/xiaomi/taurus/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+    vendor/xiaomi/taurus/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/xiaomi/taurus/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/lib/libchromatix_s5k3h7a_default_video.so:system/lib/libchromatix_s5k3h7a_default_video.so \
