@@ -41,7 +41,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/xiaomi/aries/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/aries/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
-    vendor/xiaomi/aries/proprietary/bin/nl_listener:system/bin/nl_listener
+    vendor/xiaomi/aries/proprietary/bin/nl_listener:system/bin/nl_listener \
+    vendor/xiaomi/aries/proprietary/bin/qrngd:system/bin/qrngd \
+    vendor/xiaomi/aries/proprietary/bin/port-bridge:system/bin/port-bridge
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
@@ -133,6 +135,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/xiaomi/aries/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/xiaomi/aries/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/xiaomi/aries/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/xiaomi/aries/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
+    vendor/xiaomi/aries/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
+    vendor/xiaomi/aries/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/xiaomi/aries/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/xiaomi/aries/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/xiaomi/aries/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
