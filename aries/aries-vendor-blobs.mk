@@ -59,7 +59,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-    vendor/xiaomi/aries/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/xiaomi/aries/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
+    vendor/xiaomi/aries/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/xiaomi/aries/proprietary/lib/hw/power.aries.so:system/lib/hw/power.aries.so \
     vendor/xiaomi/aries/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/xiaomi/aries/proprietary/lib/libAKM.so:system/lib/libAKM.so \
@@ -81,10 +82,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/xiaomi/aries/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/xiaomi/aries/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/xiaomi/aries/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-    vendor/xiaomi/aries/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/xiaomi/aries/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/xiaomi/aries/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/xiaomi/aries/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/xiaomi/aries/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/xiaomi/aries/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/xiaomi/aries/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
