@@ -57,7 +57,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/xiaomi/taurus/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/xiaomi/taurus/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
+    vendor/xiaomi/taurus/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/xiaomi/taurus/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/xiaomi/taurus/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/xiaomi/taurus/proprietary/lib/libAKM.so:system/lib/libAKM.so \
@@ -99,10 +100,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/xiaomi/taurus/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/xiaomi/taurus/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/xiaomi/taurus/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-    vendor/xiaomi/taurus/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/xiaomi/taurus/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/xiaomi/taurus/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
+    vendor/xiaomi/aries/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/xiaomi/aries/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/xiaomi/taurus/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/xiaomi/taurus/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/xiaomi/taurus/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
@@ -141,7 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/xiaomi/taurus/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/xiaomi/taurus/proprietary/lib/hw/power.taurus.so:system/lib/hw/power.taurus.so \
-    vendor/xiaomi/taurus/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/xiaomi/taurus/proprietary/lib/libulp2.so:system/lib/libulp2.so \
     vendor/xiaomi/taurus/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so \
     vendor/xiaomi/taurus/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
