@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/taurus/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/xiaomi/taurus/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/xiaomi/taurus/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/xiaomi/taurus/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
     vendor/xiaomi/taurus/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/xiaomi/taurus/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/xiaomi/taurus/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
