@@ -169,5 +169,4 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so
