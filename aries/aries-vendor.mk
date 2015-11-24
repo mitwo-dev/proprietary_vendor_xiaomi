@@ -19,4 +19,4 @@ DEVICE_PACKAGE_OVERLAYS := vendor/xiaomi/aries/overlay
 
 $(call inherit-product, vendor/xiaomi/aries/aries-vendor-blobs.mk)
 $(call inherit-product, vendor/xiaomi/msm8960-common/msm8960-common-vendor.mk)
-$(call inherit-product, vendor/xiaomi/qcom-common/qcom-common-vendor-blobs-a320-v104.mk)
+$(call inherit-product, vendor/xiaomi/qcom-common/qcom-common-vendor-blobs-a320.mk)

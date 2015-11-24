@@ -22,8 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/xiaomi/aries/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/xiaomi/aries/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
-    vendor/xiaomi/aries/proprietary/etc/firmware/voiceproc_init.img:system/etc/firmware/voiceproc_init.img \
-    vendor/xiaomi/aries/proprietary/etc/firmware/voiceproc.img:system/etc/firmware/voiceproc.img
 
 # Back Cam
 PRODUCT_COPY_FILES += \
@@ -58,25 +56,3 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libchromatix_imx132_default_video.so:system/lib/libchromatix_imx132_default_video.so \
     vendor/xiaomi/aries/proprietary/lib/libchromatix_imx132_preview.so:system/lib/libchromatix_imx132_preview.so \
     vendor/xiaomi/aries/proprietary/lib/libchromatix_imx132_zsl.so:system/lib/libchromatix_imx132_zsl.so
-
-# Camera
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/aries/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/xiaomi/aries/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
-
-# Sensors
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/aries/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/xiaomi/aries/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-    vendor/xiaomi/aries/proprietary/lib/libAKM.so:system/lib/libAKM.so \
-    vendor/xiaomi/aries/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
-    vendor/xiaomi/aries/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
-    vendor/xiaomi/aries/proprietary/lib/libsensor_test.so:system/lib/libsensor_test.so \
-    vendor/xiaomi/aries/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so

@@ -17,7 +17,6 @@
 # Bin
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-    vendor/xiaomi/msm8960-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/msm8960-common/proprietary/bin/diag_callback_client:system/bin/diag_callback_client \
     vendor/xiaomi/msm8960-common/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/xiaomi/msm8960-common/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
@@ -27,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/xiaomi/msm8960-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/msm8960-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
-    vendor/xiaomi/msm8960-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/msm8960-common/proprietary/bin/ks:system/bin/ks \
     vendor/xiaomi/msm8960-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/msm8960-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -39,12 +37,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/msm8960-common/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/msm8960-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/xiaomi/msm8960-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/msm8960-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/xiaomi/msm8960-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/xiaomi/msm8960-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/msm8960-common/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/xiaomi/msm8960-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/xiaomi/msm8960-common/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app
+
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8960-common/proprietary/bin/irsc_util:system/bin/irsc_util
 
 # ETC
 PRODUCT_COPY_FILES += \
@@ -57,14 +59,46 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/xiaomi/msm8960-common/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf
 
+# Bt
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8960-common/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/xiaomi/msm8960-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
+    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
+
+
+# Light
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8960-common/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so
+
+# Sensors
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8960-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libAKM.so:system/lib/libAKM.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libsensor_test.so:system/lib/libsensor_test.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so
+
 # Camera
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8960-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so
+    vendor/xiaomi/msm8960-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libstlport.so:system/lib/libstlport.so
+
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -119,8 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libxml.so:system/lib/libxml.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libril.so:system/lib/libril.so
+    vendor/xiaomi/msm8960-common/proprietary/lib/libxml.so:system/lib/libxml.so
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -146,3 +179,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so
+
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so

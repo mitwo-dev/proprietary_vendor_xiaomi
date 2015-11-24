@@ -19,7 +19,8 @@ PRODUCT_PACKAGES += \
     libqti-perfd-client \
     libtime_genoff \
     libTimeService \
-    TimeService
+    TimeService \
+    libqc-opt
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/xiaomi/overlay/common
 
